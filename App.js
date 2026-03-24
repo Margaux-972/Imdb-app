@@ -100,7 +100,11 @@ export default function App() {
                   style={{ height: 180, width: 130 }}
                   resizeMode="cover"
                 />
-                <Text style={{ color: "white", padding: 5 }}>
+                <Text
+                  style={{ color: "white", padding: 5, width: 130 }}
+                  numberOfLines={1}
+                  ellipsizeMode="tail"
+                >
                   Matthew McConaughey
                 </Text>
                 <Text style={{ color: "#AAAAAA", padding: 5 }}>Cooper</Text>
